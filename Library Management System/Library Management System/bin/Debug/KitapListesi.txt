@@ -1,0 +1,7 @@
+1,1984,George Orwell,Distopya,10,1,null
+2,Suç ve Ceza,Fyodor Dostoyevski,Roman,5,0,2024-01-20 17:07:04
+3,Yabancı,Albert Camus,Felsefi Roman,15,1,2024-01-20 17:07:04
+4,Kırmızı Pazartesi,Gabriel Garcia Marquez,Roman,2,0,2024-01-20 17:07:04
+5,Bin Muhteşem Güneş,Khaled Hosseini,Roman,2,1,2024-01-20 17:09:27
+6,denme,deneme,roman,14,1,null
+7,gdsg,sdgsdg,sdg,4,0,null
