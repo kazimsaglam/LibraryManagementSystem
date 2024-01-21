@@ -1,7 +1,16 @@
-1,1984,George Orwell,Distopya,10,1,null
-2,Suç ve Ceza,Fyodor Dostoyevski,Roman,5,0,2024-01-20 17:07:04
-3,Yabancı,Albert Camus,Felsefi Roman,15,1,2024-01-20 17:07:04
-4,Kırmızı Pazartesi,Gabriel Garcia Marquez,Roman,2,0,2024-01-20 17:07:04
+1,1984,George Orwell,Distopya,10,1,2024-01-20 17:07:04
+2,Suç ve Ceza,Fyodor Dostoyevski,Roman,5,0,null
+3,Yabancı,Albert Camus,Felsefi Roman,16,0,null
+4,Kırmızı Pazartesi,Gabriel Garcia Marquez,Roman,2,0,null
 5,Bin Muhteşem Güneş,Khaled Hosseini,Roman,2,1,2024-01-20 17:09:27
-6,denme,deneme,roman,14,1,null
-7,gdsg,sdgsdg,sdg,4,0,null
+6,Kırmızı ve Siyah,Stendhal,Roman,5,0,null
+7,Gurur ve Önyargı,Jane Austen,Roman,7,0,null
+8,Satranç,Stefan Zweig,Roman,19,0,null
+9,Fahrenheit 451,Ray Bradbury,Roman,1,0,null
+10,Ben Kirke,Madeline Miller,Roman,4,0,null
+11,Sevda Sözleri,Cemal Süreya,Şiir,5,0,null
+12,Hayvan Çiftliği,George Orwell,Distopya,3,1,2024-01-21 17:09:27
+13,Kürk Mantolu Madonna,Sabahattin Ali,Roman,7,0,null
+14,Olağanüstü Bir Gece,Stefan Zweig,Roman,11,0,null
+15,İçimizdeki Şeytan,Sabahattin Ali,Roman,6,0,null
+16,Şeker Portakalı,Jose Mauro De Vasconce,Roman,5,1,2024-01-23 18:16:03
