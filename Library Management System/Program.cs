@@ -20,13 +20,13 @@ namespace Library_Management_System
                 Console.WriteLine("| Kütüphane Yönetim Sistemine Hoşgeldiniz |");
                 Console.WriteLine("-------------------------------------------");
                 Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine("1. Yeni Kitap Ekle");
-                Console.WriteLine("2. Tüm Kitapları Görüntüle");
-                Console.WriteLine("3. Süresi Geçmiş Kitapları Görüntüle");
-                Console.WriteLine("4. Kitap Ara");
-                Console.WriteLine("5. Kitap Ödünç Al");
-                Console.WriteLine("6. Kitap İade Et");
-                Console.WriteLine("9. Çıkış");
+                Console.WriteLine("[1] Yeni Kitap Ekle");
+                Console.WriteLine("[2] Tüm Kitapları Görüntüle");
+                Console.WriteLine("[3] Süresi Geçmiş Kitapları Görüntüle");
+                Console.WriteLine("[4] Kitap Ara");
+                Console.WriteLine("[5] Kitap Ödünç Al");
+                Console.WriteLine("[6] Kitap İade Et");
+                Console.WriteLine("[9] Çıkış");
                 Console.ResetColor();
 
                 Console.Write("\nYapmak istediğiniz işlemi seçin: ");

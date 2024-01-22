@@ -14,3 +14,4 @@
 14,Olağanüstü Bir Gece,Stefan Zweig,Roman,11,0,null
 15,İçimizdeki Şeytan,Sabahattin Ali,Roman,6,0,null
 16,Şeker Portakalı,Jose Mauro De Vasconce,Roman,5,1,2024-01-23 18:16:03
+17,Deneme,DenemYazar,Roman,1,0,null

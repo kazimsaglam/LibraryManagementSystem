@@ -24,11 +24,11 @@ namespace Library_Management_System
         {
             foreach (var kitap in kitapListesi)
             {
-                Console.WriteLine($"ID: {kitap.kitapID}");
-                Console.WriteLine($"Kitap Adı: {kitap.kitapAdi}");
-                Console.WriteLine($"Yazar: {kitap.yazarAdi}");
-                Console.WriteLine($"Tür: {kitap.tur}");
-                Console.WriteLine($"Kopya Sayısı: {kitap.kopyaSayisi}");
+                Console.WriteLine($"ID:                        {kitap.kitapID}");
+                Console.WriteLine($"Kitap Adı:                 {kitap.kitapAdi}");
+                Console.WriteLine($"Yazar:                     {kitap.yazarAdi}");
+                Console.WriteLine($"Tür:                       {kitap.tur}");
+                Console.WriteLine($"Kopya Sayısı:              {kitap.kopyaSayisi}");
                 Console.WriteLine($"Ödünç Alınan Kopya Sayısı: {kitap.oduncAlinanKopyaSayisi}");
                 Console.WriteLine("--------------------------------------------\n");
             }
@@ -121,7 +121,7 @@ namespace Library_Management_System
                 Console.WriteLine("Ödünç Alınmış Kitaplar:\n");
                 foreach (var kitap in oduncKitaplar)
                 {
-                    Console.WriteLine($"ID: {kitap.kitapID}, Kitap Adı: {kitap.kitapAdi}, Yazar: {kitap.yazarAdi}, Tür: {kitap.tur}, Kopya Sayısı: {kitap.kopyaSayisi}, Ödünç Alınan Kopya Sayısı: {kitap.oduncAlinanKopyaSayisi}, İade Tarihi: {kitap.iadeTarihi}");
+                    Console.WriteLine($"ID: {kitap.kitapID}, Kitap Adı: {kitap.kitapAdi}, Yazar: {kitap.yazarAdi}, Tür: {kitap.tur}, Kopya Sayısı: {kitap.kopyaSayisi}, \nÖdünç Alınan Kopya Sayısı: {kitap.oduncAlinanKopyaSayisi}, İade Tarihi: {kitap.iadeTarihi}");
                     Console.WriteLine("---------------------------------------------------------------------------------------------------------\n");
                 }
             }
@@ -138,7 +138,7 @@ namespace Library_Management_System
                 {
                     if (kitap.iadeTarihi.HasValue && (kitap.iadeTarihi.Value - DateTime.Now).TotalMilliseconds < 0)
                     {
-                        Console.WriteLine($"ID: {kitap.kitapID}, Kitap Adı: {kitap.kitapAdi}, Yazar: {kitap.yazarAdi}, Tür: {kitap.tur}, Kopya Sayısı: {kitap.kopyaSayisi}, Ödünç Alınan Kopya Sayısı: {kitap.oduncAlinanKopyaSayisi}, İade Tarihi: {kitap.iadeTarihi}");
+                        Console.WriteLine($"ID: {kitap.kitapID}, Kitap Adı: {kitap.kitapAdi}, Yazar: {kitap.yazarAdi}, Tür: {kitap.tur}, Kopya Sayısı: {kitap.kopyaSayisi}, \nÖdünç Alınan Kopya Sayısı: {kitap.oduncAlinanKopyaSayisi}, İade Tarihi: {kitap.iadeTarihi}");
                         Console.WriteLine("---------------------------------------------------------------------------------------------------------\n");
                     }
                 }
